@@ -20,16 +20,16 @@ export default function NavBar() {
          {/* Menu */}
          <ul className="hidden md:flex">
             <li className="hover:border-b-2 border-pink-600">
-            <NavLink href="/">Home </NavLink>
+            <NavLink to="/">Home </NavLink>
             </li>
             <li className="hover:border-b-2 border-pink-600">
-            <NavLink href="/about">About</NavLink>
+            <NavLink to="/about">About</NavLink>
             </li>
             <li className="hover:border-b-2 border-pink-600">
-            <NavLink href="/product">Products</NavLink>
+            <NavLink to="/product">Products</NavLink>
             </li>
             <li className="hover:border-b-2 border-pink-600">
-            <NavLink href="/contact">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             </li>
          </ul>
 
@@ -41,16 +41,16 @@ export default function NavBar() {
        {/* Mobile menu*/}
        <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-inherit flex flex-col justify-center items-center md:hidden"}>
             <li className="py-6 text-4xl">
-            <NavLink href="/">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink href="/about">About</NavLink>
+            <NavLink to="/about">About</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink href="/product">Products</NavLink>
+            <NavLink to="/product">Products</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink href="/contact">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             </li>
        </ul>
 
