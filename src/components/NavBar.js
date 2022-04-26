@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { NavLink, Link } from "react-router-dom"
 import {FaBars, FaTimes, FaGithub, FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 
