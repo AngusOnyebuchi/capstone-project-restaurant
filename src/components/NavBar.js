@@ -41,16 +41,16 @@ export default function NavBar() {
        {/* Mobile menu*/}
        <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-inherit flex flex-col justify-center items-center md:hidden"}>
             <li className="py-6 text-4xl">
-            <NavLink to="/">Home</NavLink>
+            <NavLink onClick={handleClick} to="/">Home</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink to="/about">About</NavLink>
+            <NavLink onClick={handleClick} to="/about">About</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink to="/product">Products</NavLink>
+            <NavLink onClick={handleClick} to="/product">Products</NavLink>
             </li>
             <li className="py-6 text-4xl">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink onClick={handleClick} to="/contact">Contact</NavLink>
             </li>
        </ul>
 
