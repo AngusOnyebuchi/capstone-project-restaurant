@@ -33,8 +33,8 @@ export default function NavBar() {
             </li>
          </ul>
 
-       {/* Hamburger */}
-       <div onClick={handleClick} className="md:hidden z-10">
+       {/* Menu Toggler */}
+       <div onClick={handleClick} className="md:hidden z-1000">
           {nav ? <FaBars/> : <FaTimes/>}
        </div>
 
