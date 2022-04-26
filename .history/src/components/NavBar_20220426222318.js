@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import {FaBars, FaTimes, FaGithub, FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaLinkedin} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
-
+import {BsFillPersonLinesFill} from "react-icons/bs"
+import Logo from "../images/passport.jpg"
 //import { Link } from "react-scroll/modules"; This line is removed cus We would use react-router instead of react-smooth-scroll
 
 
@@ -13,7 +14,7 @@ export default function NavBar() {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
        
        <div>
-          <h3>A R</h3>
+          <h3>AR</h3>
        </div>
        
          {/* Menu */}
