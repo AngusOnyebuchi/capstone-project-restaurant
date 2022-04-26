@@ -14,7 +14,7 @@ export default function NavBar() {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
        
        <div>
-          <h3>A R</h3>
+          <h3 className="font-bold">ANGUS</h3>
        </div>
        
          {/* Menu */}
@@ -39,7 +39,7 @@ export default function NavBar() {
        </div>
 
        {/* Mobile menu*/}
-       <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-inherit flex flex-col justify-center items-center md:hidden"}>
+       <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-inherit flex flex-col justify-center items-center md:hidden z-1000"}>
             <li className="py-6 text-4xl">
             <NavLink onClick={handleClick} to="/">Home</NavLink>
             </li>
