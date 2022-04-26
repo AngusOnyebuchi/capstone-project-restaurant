@@ -1,5 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 import { HiArrowNarrowRight} from "react-icons/hi"
+
 //import { Link } from "react-scroll/modules"; This line is removed cus We would use react-router instead of react-smooth-scroll
 
 export default function Home() {
