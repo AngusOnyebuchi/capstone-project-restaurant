@@ -39,6 +39,7 @@ export default function NavBar() {
        </div>
 
        {/* Mobile menu*/}
+       <div className="relative">
        <ul className={nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-inherit flex flex-col justify-center items-center md:hidden z-1000"}>
             <li className="py-6 text-4xl">
             <NavLink onClick={handleClick} to="/">Home</NavLink>
@@ -53,6 +54,7 @@ export default function NavBar() {
             <NavLink onClick={handleClick} to="/contact">Contact</NavLink>
             </li>
        </ul>
+       </div>
 
        {/**Social Icons */}
        <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
