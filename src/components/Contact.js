@@ -29,27 +29,27 @@ export default function Contact() {
 
       <div className='flex justify-center gap-8 md:gap-24 mt-8 mb-12'>
         <a href="https://facebook.com/profile.php?id=100008620207826">
-        <FaFacebook size={30} className="cursor-pointer px-2"/>
+        <FaFacebook size={30} className="cursor-pointer px-1"/>
         </a>
         <a href="https://instagram.com/angus_buchi">
-        <FaInstagram size={30} className="cursor-pointer px-2"/>
+        <FaInstagram size={30} className="cursor-pointer px-1"/>
         </a>
         <a href="https://linkedin.com/in/maduabuchi-angus-modum-715528194">
-        <FaLinkedin size={30} className="cursor-pointer px-2"/>
+        <FaLinkedin size={30} className="cursor-pointer px-1"/>
         </a>
         <a href="https://twitter.com/AngusOnyebuchi">
-        <FaTwitter size={30} className="cursor-pointer px-2"/>
+        <FaTwitter size={30} className="cursor-pointer px-1"/>
         </a>
         <a href="https://github.com/AngusOnyebuchi">
-        <FaGithub size={30} className="cursor-pointer px-2"/>
+        <FaGithub size={30} className="cursor-pointer px-1"/>
         </a>
         <a href="mailto:angusonyebuchi800@gmail.com">
-        <HiOutlineMail size={30} className="cursor-pointer px-2"/>
+        <HiOutlineMail size={30} className="cursor-pointer px-1"/>
         </a>
       </div>
 
       <div className='flex items-center justify-center gap-2 text-sm pb-4'>
-        <h4>Made with</h4> <FaHeart className="px-2"/> <h4>by Angus - Development 2022</h4>
+        <h4 className="pr-1">Made with</h4> <FaHeart/> <h4 className="pl-1>by Angus - Development 2022</h4>
       </div>
     </div>
 
