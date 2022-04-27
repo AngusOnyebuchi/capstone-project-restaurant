@@ -11,7 +11,7 @@ const ProductsData = [
 {
     id: 2,
     image: "https://umscope.com/wp-content/uploads/2021/04/SEMO.jpg",
-    food: "Egusi & Semovita",
+    food: "Egusi and Semovita",
     price: 650,
     time: 20,
     time1: 45
@@ -19,7 +19,7 @@ const ProductsData = [
 {
     id: 3,
     image: "https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg",
-    food: "Noodles & Egg",
+    food: "Noodles and Egg",
     price: 300,
     time: 10,
     time1: 35
@@ -35,7 +35,7 @@ const ProductsData = [
 {
     id: 5,
     image: "https://allnigerianfoods.com/wp-content/uploads/egg-sauce-500x450.png",
-    food: "Yam & Egg",
+    food: "Yam and Egg sauce",
     price: 800,
     time: 30,
     time1: 45
@@ -43,7 +43,7 @@ const ProductsData = [
 {
     id: 6,
     image: "https://allnigerianfoods.com/wp-content/uploads/fried_rice_recipe.jpg",
-    food: "Fried Rice",
+    food: "Fried Rice with Chicken",
     price: 700,
     time: 15,
     time1: 40
