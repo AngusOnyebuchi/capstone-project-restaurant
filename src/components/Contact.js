@@ -49,7 +49,7 @@ export default function Contact() {
       </div>
 
       <div className='flex items-center justify-center gap-2 text-sm pb-4'>
-        <h4>Made with</h4> <FaHeart/> <h4>by Angus - Development 2022</h4>
+        <h4 className="mr-1>Made withe</h4> <FaHeart/> <h4 className="ml-1>by Angus - Development 2022</h4>
       </div>
     </div>
 
