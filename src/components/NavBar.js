@@ -14,7 +14,7 @@ export default function NavBar() {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
        
        <div>
-          <h3 className="font-bold">ANGUS</h3>
+          <h3 className="font-bold text-lg">ANGUS</h3>
        </div>
        
          {/* Menu */}
